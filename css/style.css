@@ -67,3 +67,133 @@ header{
 .nav-links{
     overflow: auto;
 }
+footer{
+    font-size: large;
+    bottom: 0px;
+    width: 100%;
+    
+}
+.footerone{
+    padding-top: 30px;
+    display: flex;
+    align-items: top center;
+}
+.footerone .left .content {
+    text-align: justify;
+    width: 250px;
+}
+.footerone .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h1{
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+.box p{
+    margin: 20px 0 0 0;
+}
+.left .social{
+
+    margin: 20px 0 0 0;
+}
+.left .social a {
+    padding: 0 2px;
+    width: 20px;
+    height: 20px;
+}
+.left .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    color: azure;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+.left .social a span:hover{
+    background: bisque;
+    color: #1a1a1a;
+}
+.left p{
+    text-align: justify;
+}
+#bton{
+    margin: 20px 30px;
+    width: 200px;
+    padding: 10px 10px;
+    background: #1a1a1a;
+    color: whitesmoke;
+    border-radius: 40px;
+
+}
+#bton:hover{
+    margin: 20px 30px;
+    width: 200px;
+    padding: 10px 10px;
+    color: #1a1a1a;
+    background:  bisque;;
+    border-radius: 40px;
+
+}
+.centre .qform{
+    display: flex;
+    align-items: center;
+}
+#fname {
+    display: inline;
+}
+#lname{
+    display: inline;
+}
+ .name p {
+/*    padding-left: 1.0rem; */
+    padding-right: 6.0rem;
+    padding-bottom: 10px;
+    word-break: break-word;
+    display: inline-block;
+    line-height: 1;
+}
+.namein{   
+    word-break: break-word;
+    display: inline-block;
+    line-height: 1;    
+    padding-right: 2.5rem;
+}
+.qform .inp {
+    width: 88%;
+}
+.centre .fillform p{
+  width: 300px;
+}
+.textin{
+    display: inline-block;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.left{
+    display: inline-block;
+    box-sizing: border-box;
+    align-items: center;
+    margin-left: 50px;
+}
+.centre{    
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+.right{   
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+.right h1{
+    font-size: 1.25rem;
+    padding: 10px 10px;
+}
+.right li{    
+    padding: 5px 10px;
+    list-style: none;
+}
